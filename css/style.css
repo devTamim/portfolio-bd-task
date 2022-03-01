@@ -1,0 +1,84 @@
+header {
+  background-image: url(../media/hero.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (min-width: 1196px) {
+  .header {
+    height: 100vh;
+  }
+}
+/* nav {
+  margin-left: 200px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+ul li {
+  list-style: none;
+  padding: 40px;
+  margin-top: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+ul li a:hover {
+  color: #fff;
+} */
+.heading {
+  margin-top: 200px;
+}
+.skills {
+  background-image: url(../media/sill.png);
+  /* height: 100vh; */
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (min-width: 990px) {
+  .skills {
+    height: 100vh;
+  }
+}
+.border-custom {
+  border: 2px solid #f68e56;
+}
+.orange {
+  color: #f68e56;
+}
+.orange:hover {
+  color: #f68e56;
+}
+.orange-bg {
+  background-color: #f68e56;
+}
+.portfolio {
+  background-image: linear-gradient(
+      rgba(158, 97, 40, 0.829),
+      rgba(148, 98, 50, 0.774)
+    ),
+    url(../media/portfolio.png);
+
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (min-width: 1196px) {
+  .portfolio {
+    height: 100vh;
+  }
+}
+.contact {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../media/contact.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+@media only screen and (min-width: 1196px) {
+  .contact {
+    height: 100vh;
+  }
+}
